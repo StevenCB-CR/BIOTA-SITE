@@ -6,48 +6,24 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner text-coursel">
           <div class="carousel-item active">
-            <img class="first-slide" src="<?php echo get_theme_file_uri('img/iglesia.jpg'); ?>" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption ">
-                <h1 style="background-color: rgb(0,0,0,0.48)" >Iglesia de Orosi</h1>
-                <p style="background-color: rgb(0,0,0,0.48)">Patrimonio cultural de la zona</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
-              </div>
-            </div>
+            <img class="first-slide" src="<?php echo get_theme_file_uri('img/Portada1.jpg'); ?>" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="<?php echo get_theme_file_uri('img/parque.jpg'); ?>" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption " >
-                <h1 style="background-color: rgb(0,0,0,0.5)">Iglesia de Paraíso</h1>
-                <p  style="background-color: rgb(0,0,0,0.5)">El hermoso parque de Paraíso escenifica la iglesia y su comunidad</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
-              </div>
-            </div>
+            <img class="second-slide" src="<?php echo get_theme_file_uri('img/Portada2.jpg'); ?>" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="<?php echo get_theme_file_uri('img/puenteTren.jpg'); ?>" alt="Third slide">
+            <img class="third-slide" src="<?php echo get_theme_file_uri('img/Portada3.jpg'); ?>" alt="Third slide">
+            <!--***Para texto sobre la imagen.
             <div class="container">
-              <div class="carousel-caption ">
-                <h1 style="background-color: rgb(0,0,0,0.5)">Puente del tren</h1>
-                <p style="background-color: rgb(0,0,0,0.5)">Transporte ferrobiario de Costa Rica</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
+              <div style="background-color: rgb(0,0,0,0.5)" class="carousel-caption ">
+                <h1 >Puente del tren</h1>
+                <p >Transporte ferrobiario de Costa Rica</p>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img class="fourth-slide" src="<?php echo get_theme_file_uri('img/represa.jpg'); ?>" alt="Fourth slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1 style="background-color: rgb(0,0,0,0.5)">Represa Cachí</h1>
-                <p style="background-color: rgb(0,0,0,0.5)">Hermosa vista e importante zona para el desarrollo costarricense</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
-              </div>
-            </div>
+            -->
           </div>
         </div>
         
@@ -67,15 +43,64 @@
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
       <div class="container marketing">
+        <!-- START THE FEATURETTES -->
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Proyecto Biota. <span class="text-muted"> Trabajo Comunal Universitario TC-726</span></h2>
+            <p class="lead">Apoyo a comunidades rurales para comprender su potencial ecoturístico mediante el conocimiento e interpretación de su biodiversidad, cultura y paisaje.</p>
+          </div>
+          <div class="col-md-5">
+            <video class="featurette-image img-fluid mx-auto" autoplay muted controls src="<?php echo get_theme_file_uri('img/biotavideo1.mp4#t=01'); ?>"></video>
+            <!--<img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Trabajo en las Comunidades <span class="text-muted">Avistamiento de aves.</span></h2>
+            <p class="lead">En el Proyecto Biota buscamos apoyar a miembros de las comunidades rurales, emprendedores del sector turístico, centros de educación primaria y secundaria y asociaciones de desarrollo a comprender el potencial ecoturístico de su comunidad.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+          <video class="featurette-image img-fluid mx-auto" autoplay muted controls src="<?php echo get_theme_file_uri('img/pajareovideo1.mp4#t=01'); ?>"></video>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">¿Qué actividades realiza?</span></h2>
+            <p class="lead">
+              -Identificación de comunidades, líderes y contactor clave.<br>
+              -Inventario e identificación de biodiversidad (plantas, invertebrados, insectors) de interés turístico.<br>
+              -Ejecución de encuestas y actividades de rescate cultural.<br>
+              -Ejecución de actividades de educación ambiental.<br>
+              -Diseño y ejecución de talleres ecoturísticos.<br>
+              -Diseño de redes turísticas.<br>
+              -Creación de material audiovisual e informativo.<br>
+              -Creación e instalación de señalética para interpretación ambiental.<br>
+              -Identificación y mapeo de atracciones naturales y culturales.<br>
+            </p>
+          </div>
+          <div class="col-md-5">
+          <video class="featurette-image img-fluid mx-auto" autoplay muted controls src="<?php echo get_theme_file_uri('img/biotavideo2.mp4#t=01'); ?>"></video>
+          </div>
+        </div>
+        <div class="row featurette">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">¿Donde se realiza?</span></h2>
+            <p class="lead">
+              Comunidades rurales del Atlántico. El proyecto comenzará en cantones de Paraíso, Jimenez y sitios aledaños.
+            </p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="<?php echo get_theme_file_uri('img/comercio.jpg'); ?>" alt="Generic placeholder image" width="140" height="140">
-            <h2>Comercio</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatibus alias labore! Aliquid unde sint ab! Id sit quasi autem inventore nisi, aperiam, quaerat rem, placeat dignissimos veritatis molestias in? </p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver lista &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <img class="rounded-circle" src="<?php echo get_theme_file_uri('img/hospedaje.jpg'); ?>" alt="Generic placeholder image" width="140" height="140">
             <h2>Hospedaje</h2>
@@ -94,60 +119,8 @@
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia libero accusantium molestias fuga ad deleniti, placeat doloribus, accusamus, eveniet omnis ipsam! Aliquid iure porro accusamus sed ea quasi necessitatibus blanditiis? </p>
             <p><a class="btn btn-secondary" href="#" role="button">Ver lista &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="<?php echo get_theme_file_uri('img/servicios.jpg'); ?>" alt="Generic placeholder image" width="140" height="140">
-            <h2>Servicios</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus itaque ullam accusantium minus, id molestias, at voluptate beatae, adipisci nobis enim ducimus veniam totam? Doloremque commodi sed a ad ipsa. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver lista &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="<?php echo get_theme_file_uri('img/afines.jpg'); ?>" alt="Generic placeholder image" width="140" height="140">
-            <h2>Afines</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus cupiditate praesentium pariatur corrupti eos sint nam nulla id optio, tempore sequi adipisci perferendis eligendi maxime placeat, reprehenderit, fugiat illum quos! </p>
-            <p><a class="btn btn-secondary" href="#" role="button">Ver lista &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-          </div>
-        </div>
-
-        <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
 

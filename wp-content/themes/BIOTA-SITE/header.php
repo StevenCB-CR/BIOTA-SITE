@@ -23,9 +23,9 @@
                 <img src="https://i.pinimg.com/originals/b3/26/b5/b326b5f8d23cd1e0f18df4c9265416f7.png" width="30" height="30" class="d-inline-block align-top" alt="">
                 BIOTA
               </a>
-              <a class="navbar-brand" target="_blank" href="https://www.instagram.com">
-                <img src="https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a--cono-de-instagram-colorido.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                CCTAP
+              <a class="navbar-brand" target="_blank" href="https://www.youtube.com/channel/UCQoYyLBTSjjIh-IMjw03Dhg">
+                <img src="<?php echo get_theme_file_uri('img/youtube.png');?>" width="30" height="30" class="d-inline-block align-top" alt="">
+                BIOTA
               </a>
               <a class="navbar-brand " target="_blank" href="https://www.facebook.com/ParaisoUCR/">
                 <img src="https://i.pinimg.com/originals/b3/26/b5/b326b5f8d23cd1e0f18df4c9265416f7.png" width="30" height="30" class="d-inline-block align-top" alt="">
