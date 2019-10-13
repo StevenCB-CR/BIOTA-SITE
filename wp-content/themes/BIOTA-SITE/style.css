@@ -4,11 +4,39 @@
  Version: 0.1
 */
 
-header >{
-    background:black;
-    color: antiquewhite;
+header {
+        font-size: 1.4rem;
+        color: white;
+        margin : 1rem 0 1.5rem 0;
+}
+header a {
+    margin: 0 2rem;
+}
+
+.framed{
+    padding: 0.5rem;
+    background-color: whitesmoke;
+}
+
+.frame-separated{
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    margin: 0 0%;
 }
 
 .text-coursel{
     background-color:rebeccapurple;
 }
+body{
+    background-color: #ffffff;
+    background-image: get_theme_file_uri('img/fondo.jpg') ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.fixed-row{
+    padding: 0 1rem;
+}
+
