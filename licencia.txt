@@ -1,9 +1,9 @@
-
+﻿
 		    GNU  GENERAL PUBLIC LICENSE
 		       Version 2, Junio 1991
 
 Copyright (C) 1989, 1991 Free Software Foundation, Inc.
-675 Mass Ave, Cambridge, MA 02139, EEUU
+675 Mass Ave, Cambridge, MA 02139, EEUUd
 
 Se permiten la copia y distribución de copias literales de este documento,
 pero no se permite su modificación.
