@@ -31,20 +31,18 @@
           </div>
 <<<<<<< HEAD
         </div>       
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="background-color: rgb(0,0,0,0.5)">
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="background-color: rgb(0,0,0,0.5)">
           <span style="background-color: rgb(0,0,0,0.9)" class="carousel-control-prev-icon" aria-hidden="true"></span>
-=======
-        </div>
-        
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span style="background-color: rgb(0,0,0,0.7)" class="carousel-control-prev-icon" aria-hidden="true"></span>
->>>>>>> f9059b39c6863bb6fe51b2be5b56c8820328163d
+
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="background-color: rgb(0,0,0,0.5)">
+			
+			 <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="background-color: rgb(0,0,0,0.5)">
           <span style="background-color: rgb(0,0,0,0.9)" class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+        </div>     
+             
       </div>
 <<<<<<< HEAD
   </div>
