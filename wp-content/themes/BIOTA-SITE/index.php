@@ -26,14 +26,17 @@
             -->
           </div>
         </div>       
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="background-color: rgb(0,0,0,0.5)">
+         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="background-color: rgb(0,0,0,0.5)">
           <span style="background-color: rgb(0,0,0,0.9)" class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="background-color: rgb(0,0,0,0.5)">
+			
+			 <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="background-color: rgb(0,0,0,0.5)">
           <span style="background-color: rgb(0,0,0,0.9)" class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+        </div>     
+             
       </div>
   </div>
     <div class="container">
